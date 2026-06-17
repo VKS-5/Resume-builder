@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js">
+</script>
+</head>
+<body>
+<header>
+     <h1>Resume Builder</h1>
+    <button onclick="downloadPDF()">Download PDF</button>
+</header>
+<div class="container">
+<div class="form-box">
+<h2>Enter Details</h2>
+<input id="name" placeholder="Full Name">
+<input id="job" placeholder="Job Title">
+<input id="email" placeholder="Email">
+<input id="phone" placeholder="Phone">
+<textarea id="education" placeholder="Education"></textarea>
+<textarea id="skills" placeholder="Skills"></textarea>
+<textarea id="experience" placeholder="Experience"></textarea>
+<button onclick="generateResume()">Generate Resume</button>
+</div>
+<div class="preview-box">
+<div id="resume">
+    <h1>Your Name</h1>
+    <h3>Job Title</h3>
+<p>
+    <i class="fa-solid fa-envelope"></i>
+Email
+</p>
+<p>
+    <i class="fa-solid fa-phone"></i>
+    Phone
+</p>
+<hr>
+
+<h2>Education</h2>
+<p>-</p>
+
+<h2>Skills</h2>
+<p>-</p>
+
+<h2>Experience</h2>
+<p>-</p>
+
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
