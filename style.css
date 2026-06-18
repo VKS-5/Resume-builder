@@ -31,6 +31,12 @@ header button{
     cursor: pointer;
 }
 
+header button:hover{
+    background: #5a82ee;
+    transition: 0.3s;
+}
+
+
 .container{
     display: flex;
     gap: 20px;
@@ -73,6 +79,11 @@ textarea{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.form-box button:hover{
+    background: #5882f4;
+    transition: 0.3s;
 }
 
 #resume{
