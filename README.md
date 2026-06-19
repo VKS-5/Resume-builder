@@ -11,16 +11,16 @@ A web application that helps users build professional resumes and export them as
 - Responsive UI and Hover effects
 - Contact icons
 
-## Technologies used
+## ⚙️Technologies used
 - HTML
 - CSS
 - Javascript
 
-## Libraries used
+## 🟩Libraries used
 - Font Awesome
 - html2pdf.js
 
-## Project Structure
+## 🗃️Project Structure
 ```text
 resume-builder/
 │
@@ -30,8 +30,7 @@ resume-builder/
 └── README.md
 ```
 
-
-## How to use
+## 📑How to use
 1. Open the website
 2. Enter resume details
 3. click **Generate Resume** button
