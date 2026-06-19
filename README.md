@@ -33,9 +33,9 @@ resume-builder/
 ## 📑How to use
 1. Open the website
 2. Enter resume details
-3. click **Generate Resume** button
+3. Click **Generate Resume** button
 4. Preview the resume
-5. click **Download PDF** button in up to download pdf
+5. Click **Download PDF** button in up to download pdf
 
 ## Author
 Created by VKS-5
