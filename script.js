@@ -13,9 +13,9 @@ function generateResume(){
      <p><i class="fa-solid fa-envelope"></i>${email}</p> 
     <p><i class="fa-solid fa-phone"></i>${phone}</p>
     <hr> 
-    <h2>Education</h2> <p>${education}</p> 
-    <h2>skills</h2> <p>${skills}</p> 
-    <h2>Experience</h2> <p>${experience}</p> 
+    <h2>Education</h2> <p>${education.replace(/\n/g,"<br>")}</p> 
+    <h2>skills</h2> <p>${skills.replace(/\n/g,"<br>")}</p> 
+    <h2>Experience</h2> <p>${experience.replace(/\n/g,"<br>")}</p> 
     `
     }
 
