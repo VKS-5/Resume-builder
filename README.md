@@ -22,12 +22,12 @@ A web application that helps users build professional resumes and export them as
 
 ## Project Structure
 ```text
-resume-builder
-|
-|- index.html
-|- style.css
-|- script.js
-|_ README.md
+resume-builder/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
 
